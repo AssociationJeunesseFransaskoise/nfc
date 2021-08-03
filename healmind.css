@@ -1,0 +1,101 @@
+@font-face {
+  font-family: trocchi;
+  src: url("fonts/Trocchi-regular.ttf");
+}
+body {
+  background-color: #FFFFFF;
+  color: #334159;
+  margin-left: 0px;
+  margin-right: 0px;
+  font-size: 100%;
+  font-family: trocchi, verdana, sans-serif;
+}
+#main-div {
+  background-image: url("Images/background.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+#positive-message {
+  text-align: center;
+  font-size: 2vw;
+}
+.left-align {
+  position: relative;
+  float: left;
+}
+.right-align {
+  position: relative;
+  float: right;
+}
+#mascot {
+  width: 50vw;
+}
+.bubble {
+  width: 30vw;
+}
+.relatively-centered {
+  position: relative;
+  left: calc(50% - 40vw);
+  width: 80vw;
+  float: top;
+  margin: 5px;
+}
+#help-link {
+  background-color: #32bda9;
+  color: #334159;
+  border: 0.2vw solid #111111;
+  border-radius: 2vw;
+  font-size: calc(12vw * 0.5);
+  top: 100%;
+  left: calc(50% - 25vw);
+  width: 50vw;
+}
+div {
+  position: relative;
+  margin-top: 4vw;
+  margin-bottom: 4vw;
+}
+.quote {
+  color: #334159;
+  text-align: center;
+  font-size: 4vw;
+}
+.seperator {
+  color: #334159;
+  font-size: 6vw;
+  font-family: serif;
+  text-align: center;
+  padding: 0px;
+  margin-top: -2vw;
+  margin-bottom: 2vw;
+}
+.logo-holder {
+  color: #334159;
+  font-size: 2vw;
+  text-align: center;
+  position: relative;
+  bottom: 0px;
+  width: 100%;
+}
+.logo {
+  position: relative;
+  height: 18vw;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-color: white;
+  border-radius: 2vw;
+}
+#logo-right {
+  float: right;
+  margin-right: 5vw;
+}
+#logo-mid {
+  left: 1vw;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+#logo-left {
+  float: left;
+  margin-left: 5vw;
+}
