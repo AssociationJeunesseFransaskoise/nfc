@@ -54,7 +54,7 @@ body {
   width: 50vw;
 }
 
-.button:hover {
+#help-link:hover {
   background-color: #98ded4;
 }
 
