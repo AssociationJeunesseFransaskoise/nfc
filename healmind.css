@@ -53,6 +53,11 @@ body {
   left: calc(50% - 25vw);
   width: 50vw;
 }
+
+button:hover {
+  background: #98ded4;
+}
+
 div {
   position: relative;
   margin-top: 4vw;
